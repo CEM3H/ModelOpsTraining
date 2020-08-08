@@ -1,6 +1,6 @@
 #ModelOpsTraining
 
-A pet project to get used to tools like make, Docker and Flask when applied to Data Science tasks
+globalglA pet project to get used with tools like make, Docker and Flask when applied to Data Science tasks
 
 Project Organization
 ------------

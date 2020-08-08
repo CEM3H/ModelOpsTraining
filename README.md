@@ -1,7 +1,6 @@
-ModelOpsTraining
-==============================
+#ModelOpsTraining
 
-A pet project to get used to tools like make, Docker, Flask applied to Data Science tasks
+A pet project to get used to tools like make, Docker and Flask when applied to Data Science tasks
 
 Project Organization
 ------------

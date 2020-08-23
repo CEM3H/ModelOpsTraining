@@ -28,7 +28,7 @@ def get_data():
 
 
 def save_data(df):
-    p = proj_dir / 'data' / 'raw' / 'data.csv'
+    p = project_dir / 'data' / 'raw' / 'data.csv'
     df.to_csv(p, sep=';', decimal='.', index=None)
 
 
@@ -37,6 +37,6 @@ if __name__ == '__main__':
     log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     logging.basicConfig(level=logging.INFO, format=log_fmt)
 
-    proj_dir = Path(__file__).resolve().parents[2]
+    project_dir = Path(__file__).resolve().parents[2]
 
     main()
